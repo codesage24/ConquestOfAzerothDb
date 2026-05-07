@@ -1,5 +1,28 @@
+:root {
+    --primary-font-color: #BDAA71;
+    --secondary-font-color: white;
+    --background-color: #121212;
+    --secondary-background-color: #1E1E1E;
+    --poor-color: #7A9D9D;
+    --common-color: #F1FFF1;
+    --uncommon-color: #1BFF00;
+    --rare-color: #0870DD;
+    --epic-color: #A335EE;
+    --legendary-color: #DA8000;
+    --vanity-color: #E5CC80;
+    --heirloom-color: #08CCFF;
+    --artifact-color: #E6CC80;
+}
+
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: var(--secondary-font-color);
+    background-color: var(--background-color);
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: bold;
+    color: var(--primary-font-color);
 }
 
 .loader {
